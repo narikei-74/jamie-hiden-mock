@@ -1,0 +1,298 @@
+body {
+  background-color: rgba(0, 0, 0, 0.80);
+}
+
+p, h1, h2, a {
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+}
+
+.wrapper {
+  width: 1080px;
+  margin: 0 auto;
+}
+
+
+/* main_image */
+.main_image {
+  display: flex;
+  margin-top: 80px;
+}
+.ring_name {
+  margin-top: 280px;
+  margin-left: 190px;
+  font-size: 50px;
+  font-family: sans-serif;
+}
+
+
+/* buy_link */
+.buy_link {
+  margin-top: 90px;
+}
+.advice {
+  font-size: 12px;
+}
+.buy_ticket {
+  display: block;
+  width: 100%;
+  line-height: 26px;
+  margin-top: 60px;
+  text-align: center;
+  margin-bottom: 50px;
+  background-color: #fff;
+  border-radius: 4px;
+  color: #000;
+  box-shadow: 0 4px 0 #dfdfdf;
+}
+.buy_ticket:hover {
+  opacity: .7;
+}
+.buy_ring {
+  display: block;
+  width: 100%;
+  line-height: 26px;
+  margin-top: 30px;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 4px;
+  color: #000;
+  box-shadow: 0 4px 0 #dfdfdf;
+}
+.buy_ring:hover {
+  opacity: .7;
+}
+
+
+/* animetion */
+.animetion {
+  margin-top: 150px;
+}
+.animetion_title {
+  margin-bottom: 50px;
+  font-size: 25px;
+}
+
+
+/* introduction */
+.introduction {
+  margin-top: 100px;
+}
+.introduction_title {
+  margin-bottom: 50px;
+  font-size: 25px;
+}
+.introduction_text {
+  font-size: 16px;
+  letter-spacing: 1.5px;
+  line-height: 24px;
+}
+
+
+/* how_to_buy */
+.how_to_buy {
+  margin-top: 100px;
+  margin-bottom: 150px;
+}
+.how_to_buy_title {
+  margin-bottom: 50px;
+  font-size: 25px;
+}
+.how_to_buy_text {
+  font-size: 16px;
+  letter-spacing: 1.5px;
+  line-height: 24px;
+}
+
+
+/* footer */
+footer {
+  margin-top: 120px;
+  margin-bottom: 20px;
+}
+.copyright {
+  font-size: 10px;
+  text-align: center;
+}
+
+
+
+/* レスポンシブ */
+/* 1024px以下 */
+@media screen and (max-width: 1024px) {
+  .wrapper {
+    width: 800px;
+    margin: 0 auto;
+  }
+
+
+  /* main_image */
+  .main_image img {
+    width: 50%;
+    height: auto;
+  }
+  .ring_name {
+    margin-left: 70px;
+    margin-top: 250px;
+    font-size: 40px;
+  }
+
+
+  /* animetion */
+  .animetion_video {
+    width: 100%;
+    height: auto;
+  }
+}
+
+/* 800px以下 */
+@media screen and (max-width: 800px) {
+  .wrapper {
+    width: 100%;
+    margin: 0;
+  }
+  .sp_wrapper {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+
+  /* main_image */
+  .main_image {
+    margin: 0;
+    background-image: url('../img/50181786bc_24_f.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+  }
+  .main_image img {
+    display: none;
+  }
+  .ring_name {
+    color: #000;
+    margin: 0 auto;
+    margin-top: 220px;
+  }
+
+
+  /* buy_link */
+  .advice {
+    line-height: 16px;
+    font-size: 12px;
+  }
+  .buy_ticket {
+    font-size: 14px;
+  }
+  .buy_ring {
+    font-size: 14px;
+  }
+
+
+  /* animetion */
+  .animetion_video {
+    width: 100%;
+    height: auto;
+  }
+  .animetion_title {
+    font-size: 20px;
+  }
+
+
+  /* introduction */
+  .introduction_title {
+    margin-bottom: 50px;
+    font-size: 20px;
+  }
+  .introduction_text {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+
+  /* how_to_buy */
+  .how_to_buy_title {
+    font-size: 20px;
+  }
+  .how_to_buy_text {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+}
+
+/* スマートフォン対応 */
+@media screen and (max-width: 599px) {
+  .wrapper {
+    width: 100%;
+    margin: 0;
+  }
+  .sp_wrapper {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+
+  /* main_image */
+  .main_image {
+    margin: 0;
+    background-image: url('../img/50181786bc_24_f.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+  }
+  .main_image img {
+    display: none;
+  }
+  .ring_name {
+    color: #000;
+    margin: 0 auto;
+    margin-top: 220px;
+  }
+
+  /* buy_link */
+  .advice {
+    line-height: 16px;
+    font-size: 12px;
+  }
+  .buy_ticket {
+    font-size: 14px;
+  }
+  .buy_ring {
+    font-size: 14px;
+  }
+
+
+  /* animetion */
+  .animetion_video {
+    width: 100%;
+    height: auto;
+  }
+  .animetion_title {
+    font-size: 20px;
+  }
+
+
+  /* introduction */
+  .introduction_title {
+    margin-bottom: 50px;
+    font-size: 20px;
+  }
+  .introduction_text {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+
+  /* how_to_buy */
+  .how_to_buy_title {
+    font-size: 20px;
+  }
+  .how_to_buy_text {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+}
